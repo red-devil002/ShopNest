@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 26px;
+    box-shadow: 0 1px 3px -2px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo a{
+    text-decoration: none;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.nav-menu h4 {
+    padding: 10px 20px;
+    border: 1px solid #0000003c;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000000bb;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 18px;
+    overflow: hidden;
+}
+
+.nav-menu h4::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+.nav-menu h4:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+.nav-menu h4 a {
+    color: #000000bb;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+}
+
+.nav-menu h4:hover a {
+    color: #fff;
+}
+
+.nav-login-card{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-login-card button{
+    padding: 10px 20px;
+    border: 1px solid #0000003c;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #000000bb;
+    transition: all ease 0.4s;
+    position: relative;
+    font-size: 18px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.nav-login-card button::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    left: 0;
+    bottom: -100%;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+}
+
+.nav-login-card button:hover::after {
+    bottom: 0;
+    border-radius: 0;
+}
+
+
+.nav-login-card span {
+    color: #000000bb;
+    text-decoration: none;
+    position: relative;
+    z-index: 9;
+}
+
+.nav-login-card button:hover span {
+    color: #fff;
+}
+
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background-color: red;
+    color: white;
+}
