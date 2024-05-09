@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# 1st React App
+
+This is my first react app which is an E-coomerse app named 'ShopNest'.
+This project helped me to learn HTML, CSS and JavaScript.
+
+I have used simple CSS, not any pre-exsiting lib.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
